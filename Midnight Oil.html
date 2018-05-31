@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:56542/about.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="./Midnight Oil_files/css">
+
+  
+  <meta name="description" content="Website for [Midnight Oil] [additional content]">
+  <meta name="author" content="[Your name here]">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Midnight Oil</title>
+  <link rel="stylesheet" type="text/css" href="./Midnight Oil_files/normalize.min.css">
+  <!-- OPTIONAL IMPORTS -->
+  <link rel="stylesheet" type="text/css" href="./Midnight Oil_files/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="./Midnight Oil_files/css(1)">
+  <!-- END OPTIONAL IMPORTS -->
+  <link rel="stylesheet" type="text/css" href="./Midnight Oil_files/styles.css">
+<!-- <style>
+  div.background {
+    background: url(outback_road.jpg) repeat;
+    border: none;
+  }
+  div.transbox{
+    margin. 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+  }
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+  </style> -->
+</head>
+<body>
+<!--<body class="background"> -->
+<!--  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+        </a>
+        <a id="main-menu" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="about.html">About</a>
+          <a class="navbar-item" href="doscography.html">Discography</a>
+          <a class="navbar-item" href="media.html">Media</a>
+          <a class="navbar-item" href="merch.html">Merch</a>
+          <a class="navbar-item" href="tour-dates.html">Tour Dates</a>
+        </div>
+      </div>
+    </div>
+  </nav> -->
+  <nav class="navbar is-warning">
+  <div class="navbar" role="navigation" aria="label=&quot;main" nagvigation"="" <div="">
+      <div class="navbar-menu is-active">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+      <a class="navbar-item">
+      <img src="./Midnight Oil_files/midnightoil-logo-new.png" alt="Bulma: a modern CSS framework based on Flexbox" width="212" height="28">
+      </a>
+
+    <div class="navbar-item has-dropdown is-active">
+      <a class="navbar-link">
+      </a><div class="navbar-dropdown"><a class="navbar-link">
+        </a><a class="navbar-item" href="http://127.0.0.1:56542/index.html">Home</a>
+        <a class="navbar-item" href="http://127.0.0.1:56542/about.html">About</a>
+        <a class="navbar-item" href="http://127.0.0.1:56542/discography.html">Discography</a>
+        <a class="navbar-item" href="http://127.0.0.1:56542/media.html">Media</a>
+        <a class="navbar-item" href="http://127.0.0.1:56542/merch.html">Merch</a>
+        <a class="navbar-item" href="http://127.0.0.1:56542/tour-dates.html">Tour Dates</a>
+    </div>
+    </div>
+
+  </div>
+  </div></nav>
+
+  <main>
+    <div class="transbox">
+    <section class="hero --about is-dark">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Midnight Oil
+          </h1>
+          <h2 class="subtitle">
+            Hero subtitle
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">About</h1>
+        <p class="about-introduction">
+          <img src="./Midnight Oil_files/MidnightOilFeature_050517.MidnightOil-400x300.jpeg" alt="about">
+          Midnight Oil are more than just a rock ‘n’ roll band. From the northern beaches of Sydney to the streets of Manhattan, they have stopped traffic, inflamed passions, inspired fans, challenged the concepts of “business as usual” and broken new ground.
+        </p>
+      </div>
+    </section>
+        </div>
+      
+    
+  </main>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]>
+</script>
+
+<script src="./Midnight Oil_files/jquery.min.js.download"></script>
+<script>
+  $(document).ready(function(){
+    console.log('jquery is enabled');
+  });
+</script>
+<!-- Code inject--></body></html>

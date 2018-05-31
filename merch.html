@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<style>
+div.background {
+  background: url(./assets/images/media/outback-road.jpg) repeat;
+  border: none;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+</style>  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+  <meta name="description" content="Website for [Midnight Oil] [additional content]" />
+  <meta name="author" content="[Midnight Oil]">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Midnight Oil</title>
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/normalize.min.css" />
+  <!-- OPTIONAL IMPORTS -->
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/bulma.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway" />
+  <!-- END OPTIONAL IMPORTS -->
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" />
+</head>
+<body>
+  <!-- <img src="./assets/images/media/outback-road.jpg" id="bg" alt=""> -->
+  <nav class="navbar is-black">
+  <div class="navbar" role="navigation" aria=label="main nagvigation"
+    <div class="navbar-brand">
+      <div class="navbar-menu is-hoverable">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <a class="navbar-item">
+          <img src="./assets/images/hand-02.jpg">
+      <!-- </a>
+      <a class="navbar-item">
+      <img src="http://www.midnightoil.com/wp-content/themes/midnight-oil/images/midnightoil-logo-new.png" alt="Bulma: a modern CSS framework based on Flexbox" width="212" height="28">
+      </a> -->
+
+    <div class="navbar-item has-dropdown is-hoverable">
+      <a class="navbar-link">
+      <div class="navbar-dropdown">
+        <a class="navbar-item" href="index.html">Home</a>
+        <a class="navbar-item" href="about.html">About</a>
+        <a class="navbar-item" href="discography.html">Discography</a>
+        <a class="navbar-item" href="media.html">Media</a>
+        <a class="navbar-item" href="merch.html">Merch</a>
+        <a class="navbar-item" href="tour-dates.html">Tour Dates</a>
+    </div>
+    </div>
+
+  </div>
+  </nav>
+
+<!-- Header -->
+  <!-- <div class="header">
+    <h1>Responsive Image Grid</h1>
+    <p>Resize the browser window to see the responsive effect.</p>
+  </div> -->
+
+<!-- Photo Grid -->
+<main>
+  <div class="background">
+<div class="row">
+  <div class="column">
+    <img src="./assets/images/merch/beanie.jpg" style="width:100%">
+    <img src="./assets/images/merch/book.jpg" style="width:100%">
+    <img src="./assets/images/merch/boxset.jpg" style="width:100%">
+    <img src="./assets/images/merch/hoodie.jpg" style="width:100%">
+    <img src="./assets/images/merch/mug.jpg" style="width:100%">
+    <!-- <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%"> -->
+  </div>
+  <div class="column">
+    <img src="./assets/images/merch/pins.jpg" style="width:100%">
+    <img src="./assets/images/merch/songbook.jpg" style="width:100%">
+    <img src="./assets/images/merch/stubby-01.jpg" style="width:100%">
+    <img src="./assets/images/merch/stubby-02.jpg" style="width:100%">
+    <img src="./assets/images/merch/t-shirt-01.jpg" style="width:100%">
+    <!-- <img src="/w3images/underwater.jpg" style="width:100%"> -->
+  </div>
+  <div class="column">
+    <img src="./assets/images/merch/t-shirt-02.jpg" style="width:100%">
+    <img src="./assets/images/merch/t-shirt-03.jpg" style="width:100%">
+    <img src="./assets/images/merch/tank-01.jpg" style="width:100%">
+    <img src="./assets/images/merch/tote-01.jpg" style="width:100%">
+    <img src="./assets/images/merch/tote-02.jpg" style="width:100%">
+    <!-- <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%"> -->
+  </div>
+  <!-- <div class="column">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+    <img src="/w3images/ocean.jpg" style="width:100%">
+    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="/w3images/mountainskies.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+  </div> -->
+</div>
+
+</body>
+</main>
+</html>
